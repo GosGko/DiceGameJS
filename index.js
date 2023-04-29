@@ -1,1 +1,1 @@
-var randomNumber1 = Math.random() + 5;
+var random = Math.random();
