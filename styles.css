@@ -49,6 +49,7 @@ footer {
     text-decoration: none;
     display: block;
     margin: 70px 0px 180px 870px;
+    cursor: pointer;
   }
   
   .btn:hover {
