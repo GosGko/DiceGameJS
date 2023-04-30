@@ -6,12 +6,13 @@ var image2 = document.querySelector(".diceImgg");
 var dice = image.src = list[random1];
 var dice2 = image2.src = list[random2];
 
-if (random1 > random2) {
+if (random1 < random2) {
     document.querySelector("h1").innerHTML = "🚩Player 1 win";
 }
-else if (random1 < random2) {
+else if (random1 > random2) {
     document.querySelector("h1").innerHTML = "Player 2 win🚩";
 }
 else {
     document.querySelector("h1").innerHTML = "🥱Draw🥱";
 } 
+
